@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
+plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search ssh-agent direnv)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -70,3 +70,16 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
+export GOOGLE_APPLICATION_CREDENTIALS=/home/adrienkrinitzky/code/MrKrini/gcp/hale-safeguard-437913-g6-610ec0f5e08c.json
+
+
+# OLIST CHALLENGE
+# export PYTHONPATH="/home/adrienkrinitzky/code/MrKrini/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH" code pendant mon bootcamp
+# export PYTHONPATH="/home/adrienkrinitzky/code/lewagon/data_prof/03-Decision-Science:$PYTHONPATH"
+export PYTHONPATH="/home/adrienkrinitzky/code/lewagon/batch2320/03-Decision-Science:$PYTHONPATH"
+
+# En dessous il faut changer pour chaque projet la c'est pour le projet Trashformers
+# export GOOGLE_APPLICATION_CREDENTIALS=/home/adrienkrinitzky/code/MrKrini/gcp/trashformers-wagon-64627ee66797.json
+
